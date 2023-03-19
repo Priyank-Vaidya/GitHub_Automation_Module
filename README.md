@@ -2,7 +2,7 @@
 Module requiered for retreiving information regarding github organisations and codespaces to automate the process in Jira, Ansible and Jenkins
 
 
-# GitHub Automation Moduele for Intergration with Jira, Jenkins and Anisible
+# GitHub Automation Module for Intergration with Jira, Jenkins and Anisible
 Working with Automation becomes much more easier when you have wide range of team size and compatibility in Organisations.
 ---
 The Current Version of Bash Script contains the GitHub Automation required for Organisations to keep the track of Codespaces and code intergratibility to other Platforms.
