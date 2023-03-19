@@ -7,6 +7,9 @@
 # Please provide your GitHub Token and RestAPI to the script as input
 ##############################################
 
+set -x #Switch to Debug Mode
+set -e #Termination if error occurs
+
 if  [ ${#@} -lt 2 ]; then
 	echo "Usage: $0 [YOUR GITHUB ACCESS TOKEN] [YOUR GITHUB REST API]"
 	exit 1;
@@ -44,3 +47,5 @@ else
 		rest_call "https://api.github.com${GITHUB_API_REST}?page=$p"
 	done
 fi
+
+echo "Response received"
